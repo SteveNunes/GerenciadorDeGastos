@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox fx:id="vBoxMain" prefHeight="700.0" prefWidth="1170.0" spacing="20.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.MainWindowController">
+   <padding>
+      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+   </padding>
+   <children>
+      <TabPane tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab fx:id="tabGastos" text="Gastos">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" />
+            </content>
+          </Tab>
+            <Tab fx:id="tabPrecosProdutos" text="Preços produtos">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" />
+               </content>
+            </Tab>
+            <Tab fx:id="tabEstatisticas" text="Estatisticas">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" />
+               </content>
+            </Tab>
+            <Tab fx:id="tabOpcoes" text="Opções">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" />
+               </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</VBox>
